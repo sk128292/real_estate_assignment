@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: AnimationConfiguration.toStaggeredList(
-                          duration: const Duration(seconds: 1),
+                          duration: const Duration(seconds: 2),
                           childAnimationBuilder: (widget) => ScaleAnimation(
                             child: widget,
                           ),
@@ -84,7 +84,7 @@ class HomeScreen extends StatelessWidget {
                           child: Text(
                             'Hi, Marina',
                             style: TextStyle(
-                              fontSize: 30,
+                              fontSize: 25,
                               color: Color(0xffb4a793),
                               fontWeight: FontWeight.bold,
                             ),
@@ -108,7 +108,7 @@ class HomeScreen extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: AnimationConfiguration.toStaggeredList(
-                          duration: const Duration(milliseconds: 1500),
+                          duration: const Duration(milliseconds: 2),
                           childAnimationBuilder: (widget) => ScaleAnimation(
                             child: widget,
                           ),
